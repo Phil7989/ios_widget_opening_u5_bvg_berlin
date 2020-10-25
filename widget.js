@@ -43,7 +43,7 @@ async function createWidget(items) {
    	list.addSpacer()
   
   	var today = new Date().getTime()
-  	var open = new Date('2020-12-03').getTime()
+  	var open = new Date('2020-12-04').getTime()
   	var days = parseInt((open - today)/ (1000 * 3600 * 24))
   
   	const labelfirst = list.addText(days + " Tage")
